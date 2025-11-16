@@ -60,11 +60,6 @@ const toolStack = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzp30XASXzPGrU2z1yjrI5WUriI-Iz2N1jw&s",
     url: "https://www.langchain.com/",
   },
-
-  // -------------------------
-  // ⭐ Newly Added Platforms
-  // -------------------------
-
   {
     name: "Lovable",
     description: "AI that builds full apps instantly with smart UI + backend.",
@@ -98,104 +93,114 @@ const toolStack = [
 
 const workshopDays = [
   {
-    title: "Day 1 · Introduction",
-    subtitle: "November 17 · Forenoon",
+    title: "Day 1 · Foundation & Tools",
+    subtitle: "Forenoon · 9:40 AM - 1:00 PM",
     sessions: [
       {
-        name: "Prompt Engineering Mastery",
+        name: "Getting Started With Gen AI",
         topics: [
-          "Instructional prompts for automation",
-          "Role-based prompts for context awareness",
-          "Step-by-step reasoning prompts",
-          "Output-controlled formats (tables, JSON)",
-          "Reasoning prompts for better analysis",
+          "Onboarding into generative AI foundations",
+          "Gen AI Tool Stack exploration", 
+          "Large Language Model fundamentals",
+          "AI-assisted writing, designing, and coding",
+          "Idea generation acceleration techniques"
         ],
-        outcome:
-          "Guide AI to think, analyze, and ship accurate, context-aware responses. Build smart workflows and kick-start agent thinking without code.",
+        outcome: "Students understand how GenAI works and can use it to speed up writing, designing, coding, and idea generation.",
+      },
+      {
+        name: "Prompting Techniques",
+        topics: [
+          "Structured methods for clear AI instructions",
+          "Controlling style, depth, and reasoning",
+          "Improving answer quality and reliability",
+          "Reducing AI mistakes and hallucinations",
+          "Academic and project-focused prompting"
+        ],
+        outcome: "Students learn how to craft effective prompts that improve answer quality, reduce mistakes, and make AI tools more reliable for academic and project work.",
+      },
+      {
+        name: "Building AI Tool Kit",
+        topics: [
+          "Essential tools, libraries, and platforms",
+          "Writing, testing, and deploying AI models",
+          "Practical resources for real AI tasks",
+          "Tool integration and workflow setup",
+          "Immediate application for projects"
+        ],
+        outcome: "Students gain a ready-to-use set of tools they can apply immediately for projects, experiments, and learning advanced AI concepts.",
       },
     ],
   },
   {
-    title: "Day 1 · Foundation",
-    subtitle: "November 17 · Afternoon",
+    title: "Day 1 · Workflows & Integration",
+    subtitle: "Afternoon · 2:00 PM - 4:00 PM", 
     sessions: [
       {
-        name: "Explore Generative AI Tools",
+        name: "AI Workflows & Multi-App Integration",
         topics: [
-          "Google AI Studio deep dive",
-          "HuggingFace + community models",
-          "OpenAI Chat/API playground",
-          "Image generators (DALL·E, Midjourney)",
-          "Audio + code assistants",
+          "Thinker-Doer Workflow methodology",
+          "Blindman-Elephant Approach for complex problems",
+          "Structured data collection and preprocessing", 
+          "Model training and evaluation processes",
+          "Connecting multiple apps using AI bridges"
         ],
-        outcome:
-          "Become comfortable switching tools, generate content quickly, and assemble prototypes without touching code.",
-      },
-      {
-        name: "Study LLM Fundamentals",
-        topics: [
-          "Tokens, context windows, and memory",
-          "Temperature vs. determinism",
-          "Model selection and cost trade-offs",
-          "Response reliability and guardrails",
-          "Prompt patterns for consistency",
-        ],
-        outcome:
-          "Control outputs better, pick the right model per task, and architect reliable AI workflows.",
-      },
-      {
-        name: "Try No-Code Agent Tools",
-        topics: [
-          "Flowise & Langflow builders",
-          "Connecting prompts, tools, and data",
-          "Branching conversation flows",
-          "Testing & debugging automations",
-          "Shipping beginner-friendly chatbots",
-        ],
-        outcome:
-          "Create working agents, automate tasks, and deliver professional experiences without writing code.",
+        outcome: "Students learn how to follow a systematic process to build end-to-end AI solutions with clarity and consistency across multiple applications.",
       },
     ],
   },
   {
-    title: "Day 2 · Build & Deploy",
-    subtitle: "November 18 · Full Day",
+    title: "Day 2 · Personalization & Agents",
+    subtitle: "Forenoon · 9:40 AM - 1:00 PM",
     sessions: [
       {
-        name: "Build a Simple AI Agent",
+        name: "Building AI Personalized Agents",
         topics: [
-          "Connect LLMs to APIs & databases",
-          "Add tools, function calling, and memory",
-          "Grounding with documents + file readers",
-          "Validation loops and human-in-the-loop",
-          "Deploy + monitor outputs",
+          "Create Your Own Writing Bot - GPT that mimics your style",
+          "AI integration into existing workflows",
+          "AI Agentic Tools & Workflows design",
+          "Future trends in AI revolution",
+          "Productivity enhancement through AI agents"
         ],
-        outcome:
-          "Deliver agents that answer from docs, send emails, and automate workflows end-to-end.",
+        outcome: "Learn to create personalized writing bots, explore AI trends, and develop AI-driven solutions to enhance productivity and efficiency in work processes.",
+      },
+    ],
+  },
+  {
+    title: "Day 2 · Product Development", 
+    subtitle: "Afternoon · 2:00 PM - 4:00 PM",
+    sessions: [
+      {
+        name: "Building Products using AI",
+        topics: [
+          "Transform ideas into AI-powered products",
+          "Step-by-step product development process",
+          "Rapid prototyping without deep technical skills",
+          "App development and workflow automation", 
+          "AI feature experimentation and integration"
+        ],
+        outcome: "Students quickly learn to prototype apps, automate workflows, and experiment with AI features even without deep technical skills.",
       },
       {
-        name: "Develop 1–2 Mini AI Products",
+        name: "Vibe Coding & Automation Tools",
         topics: [
-          "Pick product ideas (feedback, incident, hiring)",
-          "Design UI + Supabase/Replit backends",
-          "Integrate models + eval checks",
-          "Deploy with live demo links",
-          "Basic QA + user onboarding",
+          "ChatGPT for code generation and debugging",
+          "Gemini AI for multi-modal development",
+          "Lovable for instant app building",
+          "Bolt for rapid prototyping",
+          "Replit for collaborative coding"
         ],
-        outcome:
-          "Walk away with deployable prototypes, clear user flows, and documentation to showcase.",
+        outcome: "Master AI-powered coding tools to accelerate development and automate repetitive programming tasks.",
       },
       {
-        name: "Prepare Demo & Documentation",
+        name: "VS Code AI Plugins & Setup",
         topics: [
-          "Problem → Demo → Impact storytelling",
-          "Slide deck + fallback video",
-          "README with prompts & setup",
-          "Shareable deployment URLs",
-          "Interview-ready talking points",
+          "Cursor AI for intelligent code completion",
+          "Windsurf for AI-assisted development",
+          "Roo for workflow optimization", 
+          "Plugin configuration and best practices",
+          "Customizing AI coding environment"
         ],
-        outcome:
-          "Launch a polished package: slides, README, demo video, and links recruiters can test instantly.",
+        outcome: "Set up and optimize VS Code with AI plugins to create a powerful, personalized development environment.",
       },
     ],
   },
@@ -203,34 +208,35 @@ const workshopDays = [
 
 const deliverables = [
   "JNTUGV-backed certificate to boost your resume and LinkedIn profile.",
-  "1–2 shipped AI agents with live URLs, documentation, and prompts.",
-  "Reusable prompt library + productivity hacks to save hours daily.",
+  "Personalized writing bot and 1-2 AI agents with documentation.",
+  "Complete AI toolkit setup with practical workflow integration.",
+  "Reusable prompt library and productivity automation scripts.",
   "Confidence operating tools like Flowise, Langflow, Supabase, and Replit Agents.",
 ];
 
 const bonuses = [
   {
-    title: "10+ AI Productivity Hacks",
-    description:
-      "Battle-tested workflows to automate research, email, reporting, and task management.",
+    title: "AI Mastery Kit",
+    description: "Complete collection of tools, templates, and workflows for ongoing AI learning and application.",
   },
   {
-    title: "10+ Premium PPT Templates",
-    description:
-      "Ready-to-edit slide decks for strategy, classrooms, demos, and investor pitches.",
+    title: "10+ AI Productivity Hacks",
+    description: "Battle-tested workflows to automate research, email, reporting, and task management.",
+  },
+  {
+    title: "10+ Premium PPT Templates", 
+    description: "Ready-to-edit slide decks for strategy, classrooms, demos, and investor pitches.",
   },
   {
     title: "Time Management Ebook",
-    description:
-      "A focused guide on prioritization, energy management, and AI-assisted planning.",
+    description: "A focused guide on prioritization, energy management, and AI-assisted planning.",
   },
 ];
 
 const aiModelProviders = [
   {
     name: "OpenAI Models",
-    description:
-      "Advanced reasoning and multimodal coverage for high-stakes work.",
+    description: "Advanced reasoning and multimodal coverage for high-stakes work.",
     models: [
       {
         name: "GPT-4",
@@ -238,21 +244,25 @@ const aiModelProviders = [
         focus: "Advanced reasoning & complex tasks",
       },
       {
-        name: "GPT-4 Turbo",
+        name: "GPT-4 Turbo", 
         id: "gpt-4-turbo-preview",
         focus: "Balanced performance & cost",
       },
       {
         name: "GPT-3.5 Turbo",
-        id: "gpt-3.5-turbo",
+        id: "gpt-3.5-turbo", 
         focus: "Fast, cost-effective iterations",
       },
-      { name: "GPT-4o", id: "gpt-4o", focus: "Multimodal inputs and outputs" },
+      { 
+        name: "GPT-4o", 
+        id: "gpt-4o", 
+        focus: "Multimodal inputs and outputs" 
+      },
     ],
   },
   {
     name: "Google AI Models",
-    description: "Gemini family for reasoning, vision, and embeddings.",
+    description: "Gemini family for reasoning, vision, and embeddings.", 
     models: [
       {
         name: "Gemini Pro",
@@ -260,19 +270,19 @@ const aiModelProviders = [
         focus: "Text generation & reasoning",
       },
       {
-        name: "Gemini Pro Vision",
+        name: "Gemini Pro Vision", 
         id: "gemini-pro-vision",
         focus: "Multimodal understanding",
       },
       {
         name: "PaLM 2 (Text-Bison)",
-        id: "text-bison-001",
+        id: "text-bison-001", 
         focus: "Reliable legacy support",
       },
       {
         name: "Embeddings",
         id: "embedding-001",
-        focus: "Vector search & retrieval",
+        focus: "Vector search & retrieval", 
       },
     ],
   },
@@ -282,13 +292,13 @@ const aiModelProviders = [
     models: [
       {
         name: "Claude 3 Opus",
-        id: "claude-3-opus-20240229",
+        id: "claude-3-opus-20240229", 
         focus: "Most capable reasoning",
       },
       {
         name: "Claude 3 Sonnet",
         id: "claude-3-sonnet-20240229",
-        focus: "Balanced performance",
+        focus: "Balanced performance", 
       },
       {
         name: "Claude 3 Haiku",
@@ -299,8 +309,7 @@ const aiModelProviders = [
   },
   {
     name: "Open Source Models",
-    description:
-      "Self-hostable alternatives for cost control and customization.",
+    description: "Self-hostable alternatives for cost control and customization.",
     models: [
       {
         name: "Llama 2 70B",
@@ -308,7 +317,7 @@ const aiModelProviders = [
         focus: "Enterprise-ready open weights",
       },
       {
-        name: "Mistral 7B",
+        name: "Mistral 7B", 
         id: "mistralai/Mistral-7B-Instruct-v0.2",
         focus: "Lightweight, instruction tuned",
       },
@@ -320,7 +329,7 @@ const aiModelProviders = [
       {
         name: "Zephyr 7B",
         id: "HuggingFaceH4/zephyr-7b-beta",
-        focus: "Chat-centric assistant",
+        focus: "Chat-centric assistant", 
       },
     ],
   },
@@ -335,31 +344,31 @@ const developmentStack = {
       useCase: "Building AI agents without coding",
     },
     {
-      name: "Langflow",
+      name: "Langflow", 
       purpose: "LangChain visual editor",
       features: ["Component-based", "Real-time testing", "Export to code"],
       useCase: "Rapid prototyping of AI applications",
     },
     {
-      name: "n8n",
-      purpose: "Workflow automation platform",
-      features: ["300+ integrations", "Webhooks", "Custom nodes"],
-      useCase: "Enterprise automation & integrations",
+      name: "Lovable",
+      purpose: "AI app builder", 
+      features: ["Instant UI generation", "Smart backend", "No-code setup"],
+      useCase: "Building full applications without coding",
     },
   ],
   backend: {
-    runtime: "Node.js + Express",
+    runtime: "Node.js + Express", 
     database: [
       { label: "Primary", value: "Supabase (PostgreSQL)" },
       { label: "Vector", value: "Pinecone / PgVector" },
       { label: "Cache", value: "Redis" },
     ],
-    authentication: "NextAuth.js / Auth0",
+    authentication: "NextAuth.js / Auth0", 
     deployment: "Vercel / AWS / Railway",
   },
   frontend: {
     framework: "Next.js 14+ (App Router)",
-    styling: "Tailwind CSS + Shadcn/UI",
+    styling: "Tailwind CSS + Shadcn/UI", 
     stateManagement: "Zustand / React Context",
     forms: "React Hook Form + Zod",
   },
@@ -367,30 +376,31 @@ const developmentStack = {
 
 const agentArchitecture = {
   blueprint: {
-    title: "Basic Agent Structure",
-    summary: "ChatOpenAI (GPT-4) core with pluggable tools and BufferMemory",
+    title: "Personalized Agent Structure", 
+    summary: "Custom GPT agents with personalized writing styles and workflow integration",
     bullets: [
-      "LLM + memory initialized per agent",
-      "Tool belt grows as workflows expand",
-      "Process method streams responses via invoke",
+      "Style mimicry and tone adaptation",
+      "Workflow-specific tool integration", 
+      "Memory and context management",
+      "Multi-platform deployment options",
     ],
   },
   toolPatterns: [
     {
-      name: "Web Search",
-      description: "Real-time context via Serper or Tavily APIs",
+      name: "Writing Style Adaptation",
+      description: "Learn and replicate individual writing patterns and preferences",
     },
     {
-      name: "Code Execution",
-      description: "Sandboxed snippets with Replit or StackBlitz",
+      name: "Workflow Automation", 
+      description: "Connect to existing tools and processes for seamless integration",
     },
     {
-      name: "File Operations",
-      description: "PDF parsing, CSV crunching, and note extraction",
+      name: "Content Generation",
+      description: "Create context-aware content across different formats and platforms",
     },
     {
-      name: "API Integration",
-      description: "REST / GraphQL clients for SaaS automation",
+      name: "Personal Assistant Functions", 
+      description: "Task management, scheduling, and personalized recommendations",
     },
   ],
   modelSelection: [
@@ -401,10 +411,10 @@ const agentArchitecture = {
       cost: "High",
     },
     {
-      tier: "Balanced",
+      tier: "Balanced", 
       models: ["gpt-3.5-turbo", "claude-3-sonnet", "gemini-pro"],
       useCases: ["General chat", "Code generation", "Content creation"],
-      cost: "Medium",
+      cost: "Medium", 
     },
     {
       tier: "Cost Effective",
@@ -415,71 +425,31 @@ const agentArchitecture = {
   ],
   promptTemplates: [
     {
-      name: "Instructional",
-      description:
-        "Structured task, steps, and format for deterministic output.",
-      snippet:
-        "You are an AI assistant... Provide output exactly as specified.",
+      name: "Personalized Instructional",
+      description: "Adapt instructions to individual style and preferences",
+      snippet: "You are an AI assistant that writes in my personal style...",
     },
     {
-      name: "Role Based",
-      description: "Assume a persona with tone, expertise, and constraints.",
-      snippet: "You are {role}. Act as this character...",
+      name: "Role Based Personalization", 
+      description: "Assume personalized professional personas with consistent tone",
+      snippet: "You are {my professional role}. Write as I would communicate...",
     },
     {
-      name: "Step-by-Step",
-      description: "Force chain-of-thought style reasoning for reliability.",
-      snippet: "Let's think step by step: 1. Understand the problem...",
+      name: "Workflow Integration",
+      description: "Connect AI responses to specific tools and processes", 
+      snippet: "Generate output formatted for {specific tool} integration...",
     },
   ],
   deployment: [
     {
-      name: "Serverless Functions",
-      description: "Vercel API routes handling chat completions on demand.",
-      highlights: ["Edge-friendly", "Automatic scaling", "Secure secrets"],
+      name: "Custom GPT Deployment",
+      description: "Deploy personalized agents as custom GPTs for everyday use",
+      highlights: ["Easy access", "No coding required", "Continuous learning"],
     },
     {
-      name: "Real-time Streaming",
-      description: "WebSocket layer streams token-by-token responses.",
-      highlights: ["Interactive demos", "Low latency", "Better UX"],
-    },
-  ],
-  security: [
-    {
-      name: "API Security",
-      practices: [
-        "Rate limiting with Upstash Redis",
-        "Input validation via Zod schemas",
-        "Output sanitization using DOMPurify",
-        "Managed keys in environment variables",
-      ],
-    },
-    {
-      name: "Error Handling",
-      practices: [
-        "Retry with fallback models",
-        "Progressive backoff before failover",
-        "Centralized logging for audits",
-      ],
-    },
-  ],
-  optimization: [
-    {
-      name: "Caching Strategy",
-      details: [
-        "LRU memory cache for hot prompts",
-        "Redis for sessions & throttling",
-        "CDN delivery for static assets",
-      ],
-    },
-    {
-      name: "Model Optimization",
-      details: [
-        "Prompt compression to trim tokens",
-        "Structured JSON outputs",
-        "Batch processing for similar jobs",
-        "Model cascading from cheap to premium",
-      ],
+      name: "API Integration", 
+      description: "Integrate agents into existing applications and workflows",
+      highlights: ["Scalable", "Customizable", "Enterprise-ready"],
     },
   ],
 };

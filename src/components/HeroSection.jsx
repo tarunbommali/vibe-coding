@@ -9,10 +9,10 @@ const HeroSection = () => (
           VIBE · 2-Day AI Vibe Tools & Agent Workshop
         </p>
         <h1 className="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-          Master AI Vibe Tools & Build Agents in
+          Master AI Vibe Tools & Build Agents in 
           <span className="bg-linear-to-r from-violet-500 via-indigo-500 to-cyan-500 bg-clip-text text-transparent">
             <i>
-              <b>48 hours</b>
+              <b> 48 hours</b>
             </i>
           </span>
         </h1>

@@ -612,7 +612,7 @@ const agentArchitecture = {
 
 const DISCORD_IMG_LINK =
   "https://static.vecteezy.com/system/resources/thumbnails/018/930/718/small_2x/discord-logo-discord-icon-transparent-free-png.png";
-const DISCORD_SERVER_LINK = "https://discord.gg/jntugv";
+const DISCORD_SERVER_LINK = "https://discord.gg/E9dckgdNKw";
 
 
 export {

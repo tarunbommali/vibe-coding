@@ -14,7 +14,7 @@ const FinalCTA = () => (
         target="_blank"
         rel="noreferrer"
       >
-        Reserve My Seat
+        Register Now
       </a>
       <p className="mt-5 text-xs font-medium uppercase tracking-[0.3em] text-slate-500">
         Instant confirmation · Limited seats · Mentorship included

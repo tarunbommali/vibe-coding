@@ -1,3 +1,7 @@
+const liveDate = "November 17-18, 2024";
+
+const timerEndDate = "2025-11-21T23:59:00";
+
 const heroStats = [
   { label: "Hands-on Hours", value: "12+" },
   { label: "Mini Projects", value: "2" },
@@ -12,6 +16,7 @@ const toolStack = [
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg",
     url: "https://aistudio.google.com/",
+    category: "AI Development"
   },
   {
     name: "HuggingFace",
@@ -19,6 +24,7 @@ const toolStack = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzttlcHBdv4O7n0cLlM1aNFB-fx5ScOSqajf5bTov1YRAwZ9wv1NFbxlrsbSCUye1Lgos&usqp=CAU",
     url: "https://huggingface.co/",
+    category: "AI Development"
   },
   {
     name: "OpenAI Chat",
@@ -26,18 +32,21 @@ const toolStack = [
     image:
       "https://static.vecteezy.com/system/resources/previews/022/227/364/non_2x/openai-chatgpt-logo-icon-free-png.png",
     url: "https://chat.openai.com/",
+    category: "AI Development"
   },
   {
     name: "Midjourney & DALL·E",
     description: "Generate visuals for decks, mockups, and storytelling.",
     image: "https://avatars.githubusercontent.com/u/61396273?s=280&v=4",
     url: "https://www.midjourney.com/",
+    category: "Design & Visuals"
   },
   {
     name: "Flowise + Langflow",
     description: "No-code agent builders with drag-and-drop logic.",
     image: "https://avatars.githubusercontent.com/u/128289781?v=4",
     url: "https://flowiseai.com/",
+    category: "AI Agents"
   },
   {
     name: "Supabase",
@@ -45,6 +54,7 @@ const toolStack = [
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg",
     url: "https://supabase.com/",
+    category: "Backend & Database"
   },
   {
     name: "Replit Agents",
@@ -52,6 +62,7 @@ const toolStack = [
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/replit/replit-original.svg",
     url: "https://replit.com/refer/jntugvmca",
+    category: "Development & Deployment"
   },
   {
     name: "LangChain Tools",
@@ -59,12 +70,14 @@ const toolStack = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzp30XASXzPGrU2z1yjrI5WUriI-Iz2N1jw&s",
     url: "https://www.langchain.com/",
+    category: "AI Development"
   },
   {
     name: "Lovable",
     description: "AI that builds full apps instantly with smart UI + backend.",
     image: "https://lovable.dev/img/logo/lovable-icon-bg-light.png",
     url: "https://lovable.dev/invite/AT0U9DD",
+    category: "Rapid Prototyping"
   },
   {
     name: "v0 by Vercel",
@@ -72,24 +85,122 @@ const toolStack = [
     image:
       "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vercel-v0-icon.png",
     url: "https://v0.app/ref/ZWZPWR",
+    category: "Rapid Prototyping"
   },
   {
     name: "Cursor",
-    description:
-      "The AI-powered coding editor used for shipping products faster.",
+    description: "The AI-powered coding editor used for shipping products faster.",
     image:
       "https://framerusercontent.com/images/lfSBU4EhKcMg3iGg98L2F1ESfA.jpg?width=500&height=500",
     url: "https://cursor.sh/",
+    category: "Development & Deployment"
   },
   {
     name: "Emergent",
-    description:
-      "AI agents that automate entire workflows and business systems.",
+    description: "AI agents that automate entire workflows and business systems.",
     image:
       "https://pbs.twimg.com/profile_images/1913617233001295872/hYKnojsI_400x400.jpg",
     url: "https://app.emergent.sh/register?ref=jntu253942",
+    category: "AI Agents"
   },
+   {
+    name: "Gemini AI",
+    description: "Multi-modal AI for development and code generation.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2IjbfpPVzpRug-6RUaytQVw-lyEaIJrkE9g&s",
+    url: "https://gemini.google.com/",
+    category: "AI Development"
+  },
+  {
+    name: "Bolt",
+    description: "Rapid prototyping and development platform.",
+    image: "https://x5h8w2v3.delivery.rocketcdn.me/wp-content/uploads/2025/05/Logo-Bolt.new_.png",
+    url: "https://bolt.new/",
+    category: "Rapid Prototyping"
+  },
+  {
+    name: "Windsurf",
+    description: "AI-assisted development environment.",
+    image: "https://windsurf.ai/favicon.ico",
+    url: "https://windsurf.ai/",
+    category: "Development & Deployment"
+  },
+  {
+    name: "Roo",
+    description: "Workflow optimization and AI coding assistant.",
+    image: "https://roo.ai/favicon.ico",
+    url: "https://roo.ai/",
+    category: "Development & Deployment"
+  },
+  {
+    name: "VS Code + AI Plugins",
+    description: "Customizable IDE with AI-powered extensions.",
+    image: "https://code.visualstudio.com/favicon.ico",
+    url: "https://code.visualstudio.com/",
+    category: "Development & Deployment"
+  },
+  {
+    name: "Notion AI",
+    description: "AI-powered writing and organization for workflows.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    url: "https://www.notion.com/",
+    category: "Productivity & Writing"
+  },
+  {
+    name: "Claude",
+    description: "Advanced AI assistant for complex reasoning tasks.",
+    image: "https://www.anthropic.com/favicon.ico",
+    url: "https://claude.ai/",
+    category: "AI Development"
+  },
+  {
+    name: "GitHub Copilot",
+    description: "AI pair programmer for code completion and generation.",
+    image: "https://github.com/favicon.ico",
+    url: "https://github.com/features/copilot",
+    category: "Development & Deployment"
+  }
 ];
+
+ 
+const textStack = [
+  {
+    name: "Prompt Engineering Guide",
+    description: "Comprehensive guide to structured prompting techniques",
+    type: "Documentation",
+    url: "https://www.promptingguide.ai/"
+  },
+  {
+    name: "AI Workflow Templates",
+    description: "Pre-built templates for Thinker-Doer workflows",
+    type: "Templates",
+    url: "https://github.com/awesome-ai-workflows"
+  },
+  {
+    name: "LangChain Documentation",
+    description: "Official docs for building AI chains and agents",
+    type: "Documentation", 
+    url: "https://docs.langchain.com/"
+  },
+  {
+    name: "AI Agent Patterns",
+    description: "Design patterns for building effective AI agents",
+    type: "Guide",
+    url: "https://github.com/ai-agent-patterns"
+  },
+  {
+    name: "Rapid Prototyping Guide",
+    description: "Step-by-step guide for AI-powered product development",
+    type: "Tutorial",
+    url: "https://github.com/ai-prototyping-guide"
+  },
+  {
+    name: "VS Code AI Setup Guide",
+    description: "Complete setup guide for AI-powered development environment",
+    type: "Tutorial",
+    url: "https://code.visualstudio.com/docs/ai"
+  }
+];
+
 
 const workshopDays = [
   {
@@ -99,52 +210,54 @@ const workshopDays = [
       {
         name: "Getting Started With Gen AI",
         topics: [
-          "Onboarding into generative AI foundations",
-          "Gen AI Tool Stack exploration", 
-          "Large Language Model fundamentals",
+          "Onboarding into generative AI and its foundations",
+          "Gen AI tool stack overview",
+          "Large Language Model exploration",
           "AI-assisted writing, designing, and coding",
-          "Idea generation acceleration techniques"
+          "Idea generation acceleration techniques",
         ],
-        outcome: "Students understand how GenAI works and can use it to speed up writing, designing, coding, and idea generation.",
+        outcome:
+          "Students understand how GenAI works and can use it to speed up writing, designing, coding, and idea generation.",
       },
       {
         name: "Prompting Techniques",
         topics: [
-          "Structured methods for clear AI instructions",
+          "Structured methods for writing clear and targeted instructions",
           "Controlling style, depth, and reasoning",
-          "Improving answer quality and reliability",
-          "Reducing AI mistakes and hallucinations",
-          "Academic and project-focused prompting"
+          "Improving answer quality and reducing hallucinations",
+          "Academic and project-focused prompting",
         ],
-        outcome: "Students learn how to craft effective prompts that improve answer quality, reduce mistakes, and make AI tools more reliable for academic and project work.",
+        outcome:
+          "Students learn how to craft effective prompts that improve answer quality, reduce mistakes, and make AI tools more reliable for academic and project work.",
       },
       {
         name: "Building AI Tool Kit",
         topics: [
-          "Essential tools, libraries, and platforms",
-          "Writing, testing, and deploying AI models",
+          "Essential tools, libraries, and platforms for prototyping",
+          "Writing, testing, and deploying models and agents",
           "Practical resources for real AI tasks",
           "Tool integration and workflow setup",
-          "Immediate application for projects"
         ],
-        outcome: "Students gain a ready-to-use set of tools they can apply immediately for projects, experiments, and learning advanced AI concepts.",
+        outcome:
+          "Students gain a ready-to-use set of tools they can apply immediately for projects, experiments, and learning advanced AI concepts.",
       },
     ],
   },
   {
     title: "Day 1 · Workflows & Integration",
-    subtitle: "Afternoon · 2:00 PM - 4:00 PM", 
+    subtitle: "Afternoon · 2:00 PM - 4:00 PM",
     sessions: [
       {
-        name: "AI Workflows & Multi-App Integration",
+        name: "AI Workflows",
         topics: [
-          "Thinker-Doer Workflow methodology",
-          "Blindman-Elephant Approach for complex problems",
-          "Structured data collection and preprocessing", 
-          "Model training and evaluation processes",
-          "Connecting multiple apps using AI bridges"
+          "Thinker-Doer workflow methodology",
+          "Blindman–Elephant approach for complex problems",
+          "Structured data collection and preprocessing",
+          "Model training, evaluation, and deployment",
+          "Connecting multiple apps using AI integrations",
         ],
-        outcome: "Students learn how to follow a systematic process to build end-to-end AI solutions with clarity and consistency across multiple applications.",
+        outcome:
+          "Students learn how to follow a systematic process to build end-to-end AI solutions with clarity and consistency.",
       },
     ],
   },
@@ -155,18 +268,18 @@ const workshopDays = [
       {
         name: "Building AI Personalized Agents",
         topics: [
-          "Create Your Own Writing Bot - GPT that mimics your style",
-          "AI integration into existing workflows",
-          "AI Agentic Tools & Workflows design",
-          "Future trends in AI revolution",
-          "Productivity enhancement through AI agents"
+          "Create your own writing bot — build a GPT that writes like you",
+          "Integrating AI into personal and team workflows",
+          "Agentic tools and workflow design",
+          "Future trends in the AI revolution",
         ],
-        outcome: "Learn to create personalized writing bots, explore AI trends, and develop AI-driven solutions to enhance productivity and efficiency in work processes.",
+        outcome:
+          "Learn to create personalized writing bots, explore upcoming trends, and develop AI-driven solutions to enhance productivity and efficiency.",
       },
     ],
   },
   {
-    title: "Day 2 · Product Development", 
+    title: "Day 2 · Product Development",
     subtitle: "Afternoon · 2:00 PM - 4:00 PM",
     sessions: [
       {
@@ -175,32 +288,23 @@ const workshopDays = [
           "Transform ideas into AI-powered products",
           "Step-by-step product development process",
           "Rapid prototyping without deep technical skills",
-          "App development and workflow automation", 
-          "AI feature experimentation and integration"
+          "App development and workflow automation",
+          "AI feature experimentation and integration",
         ],
-        outcome: "Students quickly learn to prototype apps, automate workflows, and experiment with AI features even without deep technical skills.",
+        outcome:
+          "Students quickly learn to prototype apps, automate workflows, and experiment with AI features even without deep technical skills.",
       },
       {
         name: "Vibe Coding & Automation Tools",
-        topics: [
-          "ChatGPT for code generation and debugging",
-          "Gemini AI for multi-modal development",
-          "Lovable for instant app building",
-          "Bolt for rapid prototyping",
-          "Replit for collaborative coding"
-        ],
-        outcome: "Master AI-powered coding tools to accelerate development and automate repetitive programming tasks.",
+        topics: ["ChatGPT", "Gemini", "Lovable", "Bolt", "Replit"],
+        outcome:
+          "Hands-on exposure to tools that accelerate prototyping, automation, and agent deployment.",
       },
       {
-        name: "VS Code AI Plugins & Setup",
-        topics: [
-          "Cursor AI for intelligent code completion",
-          "Windsurf for AI-assisted development",
-          "Roo for workflow optimization", 
-          "Plugin configuration and best practices",
-          "Customizing AI coding environment"
-        ],
-        outcome: "Set up and optimize VS Code with AI plugins to create a powerful, personalized development environment.",
+        name: "VS Code Plugins & Setup",
+        topics: ["Cursor AI", "Windsurf", "Roo", "Plugin configuration and best practices"],
+        outcome:
+          "Set up and optimize VS Code with AI plugins to create a powerful, personalized development environment.",
       },
     ],
   },
@@ -452,11 +556,64 @@ const agentArchitecture = {
       highlights: ["Scalable", "Customizable", "Enterprise-ready"],
     },
   ],
+  security: [
+    {
+      name: "Access Controls",
+      practices: [
+        "Role-based access and least privilege",
+        "API key rotation and scoped tokens",
+        "Audit logs for privileged actions",
+      ],
+    },
+    {
+      name: "Input Validation & Sanitization",
+      practices: [
+        "Reject or sanitize untrusted input",
+        "Validate file uploads and external data",
+        "Rate limiting to prevent abuse",
+      ],
+    },
+    {
+      name: "Monitoring & Incident Response",
+      practices: [
+        "Real-time telemetry and alerting",
+        "Error tracking and observability",
+        "Defined runbooks for security incidents",
+      ],
+    },
+  ],
+  optimization: [
+    {
+      name: "Model Serving",
+      details: [
+        "Use smaller models for lightweight tasks",
+        "Autoscaling and instance pooling for bursts",
+        "Choose appropriate batching windows for throughput",
+      ],
+    },
+    {
+      name: "Caching & Batching",
+      details: [
+        "Cache deterministic responses",
+        "Batch similar requests to reduce calls",
+        "Use partial responses + streaming where possible",
+      ],
+    },
+    {
+      name: "Prompt & Response Efficiency",
+      details: [
+        "Trim prompts to necessary context",
+        "Use structured prompts to avoid back-and-forth",
+        "Return concise outputs and post-process on client",
+      ],
+    },
+  ],
 };
 
 const DISCORD_IMG_LINK =
   "https://static.vecteezy.com/system/resources/thumbnails/018/930/718/small_2x/discord-logo-discord-icon-transparent-free-png.png";
 const DISCORD_SERVER_LINK = "https://discord.gg/jntugv";
+
 
 export {
   heroStats,
@@ -464,8 +621,11 @@ export {
   DISCORD_SERVER_LINK,
   aiModelProviders,
   developmentStack,
+  liveDate,
   agentArchitecture,
+  timerEndDate,
   toolStack,
+  textStack,
   workshopDays,
   deliverables,
   bonuses,

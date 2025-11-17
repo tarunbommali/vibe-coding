@@ -1,4 +1,4 @@
-import { heroStats } from '../data/constants'
+import { heroStats, liveDate ,timerEndDate} from '../data/constants'
 import Countdown from '../utils/helper'
 
 const HeroSection = () => (
@@ -6,10 +6,10 @@ const HeroSection = () => (
     <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
       <div className="space-y-6">
         <p className="text-xs font-semibold uppercase tracking-[0.4em] text-indigo-500">
-          VIBE · 2-Day AI Tools & Agent Workshop
+          VIBE · 2-Day AI Vibe Tools & Agent Workshop
         </p>
         <h1 className="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-          Master AI Vibe Tools & Build Agents in{' '}
+          Master AI Vibe Tools & Build Agents in
           <span className="bg-linear-to-r from-violet-500 via-indigo-500 to-cyan-500 bg-clip-text text-transparent">
             <i>
               <b>48 hours</b>
@@ -17,7 +17,7 @@ const HeroSection = () => (
           </span>
         </h1>
         <p className="text-base leading-relaxed text-slate-600 sm:text-lg">
-          November 17-18 · Powered by{' '}
+          {liveDate} · Powered by
           <span className="font-semibold text-slate-900">
             Jawaharlal Nehru Technological University-Gurajada, Vizianagaram
           </span>
@@ -29,7 +29,7 @@ const HeroSection = () => (
             className="inline-flex items-center justify-center rounded-full bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:-translate-y-0.5 hover:bg-indigo-500"
             href="#register"
           >
-            Claim Your Free Seat
+            Claim My Spot
           </a>
           <span className="text-sm text-slate-500">Limited seats · AI Mastery Kit</span>
         </div>
@@ -53,14 +53,14 @@ const HeroSection = () => (
         <div className="relative space-y-6">
           <div className="rounded-2xl border border-slate-100 bg-white/90 p-6 shadow-xl">
             <p className="text-xs uppercase tracking-[0.3em] text-indigo-500">Registration Closes</p>
-            <Countdown target="2025-11-16T23:59:00" />
+            <Countdown target={timerEndDate} />
             <p className="mt-2 text-sm text-slate-500">
               Lock your seat before the bonus window disappears.
             </p>
           </div>
           <div className="rounded-2xl border border-slate-100 bg-slate-900 p-6 text-white">
             <p className="text-xs uppercase tracking-[0.3em] text-emerald-300">Workshop</p>
-            <p className="mt-2 text-2xl font-semibold">Nov 17-18</p>
+            <p className="mt-2 text-2xl font-semibold">{liveDate}</p>
             <p className="mt-2 text-sm text-slate-200">
               Live forenoon + afternoon + full-day build marathon.
             </p>

@@ -1,6 +1,6 @@
-const liveDate = "November 17-18, 2024";
+const liveDate = "November 18-19, 2024";
 
-const timerEndDate = "2025-11-21T23:59:00";
+const timerEndDate = "2025-11-18T23:59:00";
 
 const heroStats = [
   { label: "Hands-on Hours", value: "12+" },

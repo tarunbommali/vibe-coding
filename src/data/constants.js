@@ -1,6 +1,6 @@
 const liveDate = "November 18-19, 2024";
 
-const timerEndDate = "2025-11-18T23:59:00";
+const timerEndDate = "2025-11-17T23:59:00";
 
 const heroStats = [
   { label: "Hands-on Hours", value: "12+" },
@@ -614,7 +614,26 @@ const DISCORD_IMG_LINK =
   "https://static.vecteezy.com/system/resources/thumbnails/018/930/718/small_2x/discord-logo-discord-icon-transparent-free-png.png";
 const DISCORD_SERVER_LINK = "https://discord.gg/E9dckgdNKw";
 
-
+const qrList =  [
+    {
+        id: 'p1',
+        title: "Portfolio Prompt Generator",
+        description: "Generate prompts based on your requirements.",
+        url: "https://example.com/prompt-generator",
+    }, 
+    {
+        id: 'p2',
+        title:"LinkedIn Viral Post Generator",
+        description: "Create viral LinkedIn posts effortlessly.",
+        url: "https://example.com/linkedin-viral-post-generator",
+    },
+    {
+        id: 'p3',
+        title: "AI Resume Reviewer",
+        description: "Get AI-powered feedback on your resume.",
+        url: "https://example.com/ai-resume-reviewer",
+    }
+]
 export {
   heroStats,
   DISCORD_IMG_LINK,
@@ -629,4 +648,5 @@ export {
   workshopDays,
   deliverables,
   bonuses,
+  qrList,
 };

@@ -10,7 +10,7 @@ import DiscordCommunity from './components/DiscordCommunity'
 import FinalCTA from './components/FinalCTA'
 import Footer from './components/Footer'
 import MoveToTop from './components/MoveToTop'
-
+import QrSection from './components/QrSection'
 const App = () => (
   <div className="min-h-screen bg-linear-to-b from-white via-slate-50 to-slate-100 text-slate-900">
     <main className="mx-auto max-w-7xl space-y-20 px-4 pb-24 pt-10 lg:px-0">
@@ -18,6 +18,7 @@ const App = () => (
       <HeroSection />
       <DeliverablesSection />
       <ScheduleSection />
+      <QrSection />
 
       <ToolShowcase />
       <AIModelsSection />
